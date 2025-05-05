@@ -76,7 +76,7 @@ Open the .ghw files in GTKWave to inspect the simulated signals:
 gtkwave full_adder_tb.ghw
 gtkwave adder_tb.ghw
 ````
-# Screenshot
+# Screenshot (GTKwave)
 ![image](https://github.com/user-attachments/assets/c603ad7f-40b7-4a49-9706-3b7941d591e9)
 
 # 2. VHDL to Verilog
@@ -134,7 +134,7 @@ cd results/
 :/opt/OpenROAD-flow-scripts/flow/results/ihp-sg13g2# cd adder/
 :/opt/OpenROAD-flow-scripts/flow/results/ihp-sg13g2/adder# cd base/
 ````
-Search for the .gds file
+Search for the .gds file (Prompt WSL)
 ![image](https://github.com/user-attachments/assets/3060c879-ec5f-4e85-bc18-c83ff0848c18)
 
 # 3. Checking Results 
@@ -145,5 +145,5 @@ Open Klayout with the .gds file that is in its folder
 klayout  6_1_merged.gds
 ````
 
-# Screenshot
+# Screenshot (Klayout)
 ![image](https://github.com/user-attachments/assets/f29f32bd-7093-4342-b5c8-07db25bf19f5)
