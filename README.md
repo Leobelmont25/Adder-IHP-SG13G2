@@ -26,7 +26,16 @@ V -After the DRC and LVS checks are successfully passed, the final step is the g
 # 1. VHDL Adder - Simulation and Verification using GHDL + GTKWave
 
 This project demonstrates the simulation and verification of a VHDL adder using open-source tools such as **GHDL** and **GTKWave**. Below are described the steps to perform the analysis, simulation and visualization of the waveforms.
+Follow the steps to create the project files in the correct locations and avoid runtime errors.
+```bash
 
+/opt/OpenROAD-flow-scripts# cd flow
+make
+// After finishing running "make", create a folder for your project:
+mkdir teste1
+cd teste1
+// Then create your files
+````
 ---
 
 ## 🛠️ Prerequisite
