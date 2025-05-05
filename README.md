@@ -1,6 +1,6 @@
 # Adder-IHP-SG13G2
 Implementation of a VHDL adder to test a full digital flow using open source tools with PDK-IHP-SG13G2. The project is developed in a WSL (Windows Subsystem for Linux) environment and covers both high-level simulation (GHDL + GTKWave) and physical synthesis (Klayout) of the circuit.
-The Docker image used for this project is available in the "image" file
+The Docker image used for this project is available in the Dockerfile file
 ```bash
 // After downloading the docker image, you must open the WSL terminal and run the following command:
 $ docker build -t dockerfile .
