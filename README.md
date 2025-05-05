@@ -94,3 +94,6 @@ yosys -m ghdl -p 'ghdl full_adder.vhdl -e full_adder; write_verilog full_adder.v
 ```bash
 yosys -m ghdl -p 'ghdl adder.vhdl -e full_adder; write_verilog adder.v'
 ````
+
+# Screenshot
+![image](https://github.com/user-attachments/assets/f29f32bd-7093-4342-b5c8-07db25bf19f5)
